@@ -14,7 +14,7 @@ def min(*args):
             output = arg
     return output
 
-#Excercise 1 and 2:
+#Exercise 1 and 2:
 try:
     hour = float(input("Enter Hours: "))
     rate = float(input("Enter Rate: "))
@@ -23,7 +23,7 @@ except:
 else:
     print(f"Pay: {min(hour, 40) * rate + max(hour - 40, 0) * rate * 1.5}")
 
-#Excercise 3:
+#Exercise 3:
 try:
     score = float(input("Enter score: "))
     if score < 0.0 or 1.0 < score:
